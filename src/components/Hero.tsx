@@ -63,17 +63,17 @@ export default function Hero() {
             </p>
 
             {/* CTAs */}
-            <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+            <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-4 sm:px-0">
               <a
                 href="#menu"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-sm font-bold tracking-widest uppercase text-obsidian-950 bg-gradient-to-r from-gold-400 to-gold-600 hover:from-gold-300 hover:to-gold-500 shadow-[0_0_20px_rgba(251,191,36,0.3)] hover:shadow-[0_0_30px_rgba(251,191,36,0.5)] transition-all hover:scale-105 active:scale-95 duration-300 cursor-pointer"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-sm font-bold tracking-widest uppercase text-obsidian-950 bg-gradient-to-r from-gold-400 to-gold-600 hover:from-gold-300 hover:to-gold-500 shadow-[0_0_20px_rgba(251,191,36,0.3)] hover:shadow-[0_0_30px_rgba(251,191,36,0.5)] transition-all hover:scale-105 active:scale-95 duration-300 cursor-pointer"
               >
                 <span>Explore Menu</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
               <a
                 href="#outlets"
-                className="inline-flex items-center justify-center px-8 py-4 rounded-full text-sm font-bold tracking-widest uppercase text-slate-300 border border-slate-700 hover:border-gold-400 hover:text-gold-400 transition-all hover:scale-105 active:scale-95 duration-300 cursor-pointer"
+                className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-full text-sm font-bold tracking-widest uppercase text-slate-300 border border-slate-700 hover:border-gold-400 hover:text-gold-400 transition-all hover:scale-105 active:scale-95 duration-300 cursor-pointer"
               >
                 <span>Visit Us</span>
               </a>

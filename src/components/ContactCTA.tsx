@@ -73,7 +73,7 @@ const contactMethods = [
 
 export default function ContactCTA() {
   return (
-    <section className="py-24 relative bg-obsidian-950/40 overflow-hidden">
+    <section className="py-16 md:py-24 relative bg-obsidian-950/40 overflow-hidden">
       
       {/* Background radial glow */}
       <div className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 w-[70vw] h-[30vw] rounded-full bg-gold-500/5 blur-[150px] pointer-events-none" />

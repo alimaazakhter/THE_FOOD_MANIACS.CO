@@ -35,7 +35,7 @@ const outletsList = [
 
 export default function Outlets() {
   return (
-    <section id="outlets" className="py-24 relative bg-obsidian-950/40">
+    <section id="outlets" className="py-16 md:py-24 relative bg-obsidian-950/40">
       
       <div className="absolute top-[20%] left-[-15%] w-[45vw] h-[45vw] rounded-full bg-gold-500/5 blur-[120px] pointer-events-none" />
 

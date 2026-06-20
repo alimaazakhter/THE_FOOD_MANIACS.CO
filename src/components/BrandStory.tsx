@@ -6,7 +6,7 @@ import { Target, Eye, Quote } from 'lucide-react';
 
 export default function BrandStory() {
   return (
-    <section id="brand-story" className="py-24 relative bg-obsidian-950/40 overflow-hidden">
+    <section id="brand-story" className="py-16 md:py-24 relative bg-obsidian-950/40 overflow-hidden">
       
       {/* Ambient background decoration */}
       <div className="absolute top-[30%] left-[-10%] w-[35vw] h-[35vw] rounded-full bg-gold-500/5 blur-[100px] pointer-events-none" />

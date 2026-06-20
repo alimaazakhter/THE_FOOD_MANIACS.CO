@@ -136,7 +136,7 @@ export default function FeaturedMenu() {
   const [activeTab, setActiveTab] = useState('burgers');
 
   return (
-    <section id="menu" className="py-24 relative bg-obsidian-950">
+    <section id="menu" className="py-16 md:py-24 relative bg-obsidian-950">
       
       {/* Background decoration */}
       <div className="absolute top-[10%] right-[-15%] w-[45vw] h-[45vw] rounded-full bg-gold-500/5 blur-[120px] pointer-events-none" />
@@ -161,7 +161,7 @@ export default function FeaturedMenu() {
             <button
               key={category.id}
               onClick={() => setActiveTab(category.id)}
-              className={`px-6 py-3 rounded-full text-xs tracking-wider font-extrabold uppercase transition-all duration-300 cursor-pointer ${
+              className={`px-4 py-2 sm:px-6 sm:py-3 rounded-full text-xs tracking-wider font-extrabold uppercase transition-all duration-300 cursor-pointer ${
                 activeTab === category.id
                   ? 'bg-gradient-to-r from-gold-400 to-gold-600 text-obsidian-950 shadow-[0_4px_15px_rgba(251,191,36,0.3)] hover:scale-105'
                   : 'bg-obsidian-900 text-slate-400 hover:text-slate-200 hover:bg-obsidian-800 border border-gold-500/10'

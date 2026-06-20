@@ -20,7 +20,7 @@ const foundersList = [
 
 export default function Founders() {
   return (
-    <section className="py-24 relative bg-obsidian-950">
+    <section className="py-16 md:py-24 relative bg-obsidian-950">
       
       {/* Background decoration */}
       <div className="absolute top-[10%] right-[-15%] w-[40vw] h-[40vw] bg-gold-500/5 rounded-full blur-[100px] pointer-events-none" />

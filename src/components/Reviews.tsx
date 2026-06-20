@@ -48,7 +48,7 @@ const cardVariants: any = {
 
 export default function Reviews() {
   return (
-    <section id="reviews" className="py-24 relative bg-obsidian-950/40 overflow-hidden">
+    <section id="reviews" className="py-16 md:py-24 relative bg-obsidian-950/40 overflow-hidden">
       
       {/* Background glow effects */}
       <div className="absolute top-[20%] left-[-15%] w-[45vw] h-[45vw] rounded-full bg-gold-500/5 blur-[120px] pointer-events-none" />

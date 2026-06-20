@@ -60,7 +60,7 @@ const cardVariants: any = {
 
 export default function WhyChooseUs() {
   return (
-    <section id="why-choose-us" className="py-24 relative bg-obsidian-950/40 overflow-hidden">
+    <section id="why-choose-us" className="py-16 md:py-24 relative bg-obsidian-950/40 overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-[20%] left-[50%] -translate-x-1/2 w-[60vw] h-[30vw] rounded-full bg-gold-500/5 blur-[120px] pointer-events-none" />
 

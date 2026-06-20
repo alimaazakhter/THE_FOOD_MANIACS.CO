@@ -43,7 +43,7 @@ const galleryItems = [
 
 export default function Gallery() {
   return (
-    <section id="gallery" className="py-24 relative bg-obsidian-950">
+    <section id="gallery" className="py-16 md:py-24 relative bg-obsidian-950">
       
       <div className="absolute top-[10%] right-[-15%] w-[45vw] h-[45vw] rounded-full bg-gold-500/5 blur-[120px] pointer-events-none" />
 
