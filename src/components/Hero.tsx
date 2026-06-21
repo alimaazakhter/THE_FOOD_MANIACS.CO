@@ -118,7 +118,7 @@ export default function Hero() {
             >
               {/* Main Burger Image */}
               <img
-                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=75&w=650&auto=format&fit=crop"
                 alt="Delicious Gourmet Chicken Burger"
                 className="object-cover w-[85%] h-[85%] rounded-[2rem] shadow-2xl border-2 border-gold-400/20 transform rotate-[-6deg] hover:rotate-0 transition-transform duration-500"
               />
@@ -134,7 +134,7 @@ export default function Hero() {
                 className="absolute bottom-4 left-0 w-[35%] aspect-square rounded-2xl overflow-hidden border border-gold-400/30 shadow-xl"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?q=80&w=800&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?q=70&w=300&auto=format&fit=crop"
                   alt="Crispy French Fries"
                   className="object-cover w-full h-full"
                 />

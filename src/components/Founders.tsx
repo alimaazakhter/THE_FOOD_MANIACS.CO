@@ -7,20 +7,20 @@ const foundersList = [
   {
     name: 'Arthur Menezes',
     role: 'Co-Founder',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=400&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=70&w=300&auto=format&fit=crop',
     bio: 'Dedicated to defining the brand vision and expanding franchise partnerships across India.',
   },
   {
     name: 'Faijan Chuvara',
     role: 'Co-Founder',
-    image: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=400&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=70&w=300&auto=format&fit=crop',
     bio: 'Focused on culinary excellence, product consistency, and managing operational workflows.',
   },
 ];
 
 export default function Founders() {
   return (
-    <section className="py-16 md:py-24 relative bg-obsidian-950">
+    <section className="py-16 md:py-24 relative bg-obsidian-950 overflow-hidden">
       
       {/* Background decoration */}
       <div className="absolute top-[10%] right-[-15%] w-[40vw] h-[40vw] bg-gold-500/5 rounded-full blur-[100px] pointer-events-none" />

@@ -7,43 +7,43 @@ const galleryItems = [
     id: 1,
     title: 'Gourmet Cheeseburger',
     category: 'Burgers',
-    image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=70&w=600&auto=format&fit=crop',
   },
   {
     id: 2,
     title: 'Crispy Fried Wings',
     category: 'Fried Chicken',
-    image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=70&w=600&auto=format&fit=crop',
   },
   {
     id: 3,
     title: 'Spicy Chicken Wrap',
     category: 'Wraps',
-    image: 'https://images.unsplash.com/photo-1628191137573-dee64e727614?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1628191137573-dee64e727614?q=70&w=600&auto=format&fit=crop',
   },
   {
     id: 4,
     title: 'Premium Spiced Fries',
     category: 'Sides',
-    image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?q=70&w=600&auto=format&fit=crop',
   },
   {
     id: 5,
     title: 'Blue Lagoon Mocktail',
     category: 'Beverages',
-    image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=70&w=600&auto=format&fit=crop',
   },
   {
     id: 6,
     title: 'Maniacs Outlet Vibe',
     category: 'Outlets',
-    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=70&w=600&auto=format&fit=crop',
   },
 ];
 
 export default function Gallery() {
   return (
-    <section id="gallery" className="py-16 md:py-24 relative bg-obsidian-950">
+    <section id="gallery" className="py-16 md:py-24 relative bg-obsidian-950 overflow-hidden">
       
       <div className="absolute top-[10%] right-[-15%] w-[45vw] h-[45vw] rounded-full bg-gold-500/5 blur-[120px] pointer-events-none" />
 

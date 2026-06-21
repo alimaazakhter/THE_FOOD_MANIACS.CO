@@ -16,11 +16,11 @@ import MobileStickyBar from '@/components/MobileStickyBar';
 
 export default function Home() {
   return (
-    <>
+    <div className="w-full overflow-x-hidden flex flex-col min-h-screen bg-obsidian-950">
       {/* Sticky Top Navbar */}
       <Navbar />
 
-      <main className="flex-1">
+      <main className="flex-1 w-full overflow-x-hidden">
         {/* 1. Hero Section */}
         <Hero />
 
@@ -60,6 +60,6 @@ export default function Home() {
 
       {/* Fixed Sticky Mobile Bottom Bar */}
       <MobileStickyBar />
-    </>
+    </div>
   );
 }

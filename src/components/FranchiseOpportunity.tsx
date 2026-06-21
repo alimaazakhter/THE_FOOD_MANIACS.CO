@@ -45,7 +45,7 @@ export default function FranchiseOpportunity() {
   ];
 
   return (
-    <section id="franchise" className="py-16 md:py-24 relative bg-obsidian-950">
+    <section id="franchise" className="py-16 md:py-24 relative bg-obsidian-950 overflow-hidden">
       
       {/* Background radial glow */}
       <div className="absolute top-[30%] right-[-10%] w-[40vw] h-[40vw] rounded-full bg-gold-500/5 blur-[120px] pointer-events-none" />

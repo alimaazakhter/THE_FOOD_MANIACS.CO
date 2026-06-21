@@ -11,7 +11,7 @@ const outletsList = [
     phone: '+91 79902 74202',
     hours: '11:00 AM - 11:00 PM',
     mapLink: 'https://maps.google.com/?q=The+Food+Maniacs+Co.+Sarkhej+Makarba+Road+Ahmedabad',
-    image: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?q=70&w=400&auto=format&fit=crop',
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const outletsList = [
     phone: '+91 97272 65387',
     hours: '11:00 AM - 11:00 PM',
     mapLink: 'https://maps.google.com/?q=The+Food+Maniacs+Co.+Khanpur+Darwaja+Ahmedabad',
-    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=70&w=400&auto=format&fit=crop',
   },
   {
     id: 3,
@@ -29,13 +29,13 @@ const outletsList = [
     phone: '+91 79902 74202',
     hours: '11:00 AM - 11:00 PM',
     mapLink: 'https://maps.google.com/?q=The+Food+Maniacs+Co.+Paldi+Ahmedabad',
-    image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=800&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=70&w=400&auto=format&fit=crop',
   },
 ];
 
 export default function Outlets() {
   return (
-    <section id="outlets" className="py-16 md:py-24 relative bg-obsidian-950/40">
+    <section id="outlets" className="py-16 md:py-24 relative bg-obsidian-950/40 overflow-hidden">
       
       <div className="absolute top-[20%] left-[-15%] w-[45vw] h-[45vw] rounded-full bg-gold-500/5 blur-[120px] pointer-events-none" />
 

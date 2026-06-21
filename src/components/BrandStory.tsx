@@ -61,7 +61,7 @@ export default function BrandStory() {
             {/* Image banner inside right column */}
             <div className="relative aspect-video rounded-3xl overflow-hidden border border-gold-400/20 shadow-xl mb-2">
               <img
-                src="https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=800&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1552566626-52f8b828add9?q=70&w=600&auto=format&fit=crop"
                 alt="The Food Maniacs Outlet Vibe"
                 className="object-cover w-full h-full hover:scale-105 transition-transform duration-700"
               />

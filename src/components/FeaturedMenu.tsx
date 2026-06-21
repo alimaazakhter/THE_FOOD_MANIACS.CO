@@ -19,7 +19,7 @@ const menuItems = {
       desc: 'Crispy chicken, fresh lettuce, cheese & our special sauce.',
       price: 159,
       rating: 4.6,
-      image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=70&w=600&auto=format&fit=crop',
       badge: 'Bestseller',
     },
     {
@@ -28,7 +28,7 @@ const menuItems = {
       desc: 'Veg patty, double cheese, lettuce, tomato & signature mayo.',
       price: 129,
       rating: 4.4,
-      image: 'https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=800&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1550547660-d9450f859349?q=70&w=600&auto=format&fit=crop',
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ const menuItems = {
       desc: 'Spicy peri-peri grilled chicken, lettuce, onion & dynamic sauce.',
       price: 179,
       rating: 4.8,
-      image: 'https://images.unsplash.com/photo-1625813506062-0aeb1d7a094b?q=80&w=800&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1625813506062-0aeb1d7a094b?q=70&w=600&auto=format&fit=crop',
       badge: 'Spicy',
     },
     {
@@ -45,7 +45,7 @@ const menuItems = {
       desc: 'BBQ grilled chicken, melted cheese, onion & smoky hickory sauce.',
       price: 169,
       rating: 4.5,
-      image: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=800&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=70&w=600&auto=format&fit=crop',
     },
   ],
   'fried-chicken': [
@@ -55,7 +55,7 @@ const menuItems = {
       desc: '6 pieces of crunchy, juice-packed fried chicken wings with hot dip.',
       price: 149,
       rating: 4.7,
-      image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=70&w=600&auto=format&fit=crop',
       badge: 'Bestseller',
     },
     {
@@ -64,7 +64,7 @@ const menuItems = {
       desc: '5 golden chicken breast tenders tossed in blazing dry spices.',
       price: 169,
       rating: 4.6,
-      image: 'https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1562967914-608f82629710?q=70&w=600&auto=format&fit=crop',
       badge: 'Spicy',
     },
     {
@@ -73,7 +73,7 @@ const menuItems = {
       desc: '8 pieces of signature crispy fried chicken, hot wings & dips.',
       price: 349,
       rating: 4.9,
-      image: 'https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?q=80&w=800&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?q=70&w=600&auto=format&fit=crop',
     },
   ],
   wraps: [
@@ -83,7 +83,7 @@ const menuItems = {
       desc: 'Grilled chicken strips, fresh veggies, and garlic mayo in a soft tortilla.',
       price: 139,
       rating: 4.5,
-      image: 'https://images.unsplash.com/photo-1628191137573-dee64e727614?q=80&w=800&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1628191137573-dee64e727614?q=70&w=600&auto=format&fit=crop',
     },
     {
       id: 9,
@@ -91,7 +91,7 @@ const menuItems = {
       desc: 'Flaming peri-peri chicken, sliced cheese, raw onion, and greens.',
       price: 149,
       rating: 4.7,
-      image: 'https://images.unsplash.com/photo-1541518763669-27fef04b14ea?q=80&w=800&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1541518763669-27fef04b14ea?q=70&w=600&auto=format&fit=crop',
       badge: 'Spicy',
     },
     {
@@ -100,7 +100,7 @@ const menuItems = {
       desc: 'Crispy veg patty crumbles, spicy dressing, and crunchy greens.',
       price: 119,
       rating: 4.3,
-      image: 'https://images.unsplash.com/photo-1541518763669-27fef04b14ea?q=80&w=800&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1541518763669-27fef04b14ea?q=70&w=600&auto=format&fit=crop',
     },
   ],
   'sides-drinks': [
@@ -110,7 +110,7 @@ const menuItems = {
       desc: 'Warm molten chocolate cake with a rich liquid fudge centre.',
       price: 89,
       rating: 4.8,
-      image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=800&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=70&w=600&auto=format&fit=crop',
       badge: 'Bestseller',
     },
     {
@@ -119,7 +119,7 @@ const menuItems = {
       desc: 'Refreshing blue curaçao, mint leaves, fresh lime and sparkling soda.',
       price: 99,
       rating: 4.4,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=70&w=600&auto=format&fit=crop',
     },
     {
       id: 13,
@@ -127,7 +127,7 @@ const menuItems = {
       desc: 'Crispy golden French fries tossed in our signature spiced dust.',
       price: 99,
       rating: 4.6,
-      image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?q=80&w=800&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?q=70&w=600&auto=format&fit=crop',
     },
   ],
 };
@@ -136,7 +136,7 @@ export default function FeaturedMenu() {
   const [activeTab, setActiveTab] = useState('burgers');
 
   return (
-    <section id="menu" className="py-16 md:py-24 relative bg-obsidian-950">
+    <section id="menu" className="py-16 md:py-24 relative bg-obsidian-950 overflow-hidden">
       
       {/* Background decoration */}
       <div className="absolute top-[10%] right-[-15%] w-[45vw] h-[45vw] rounded-full bg-gold-500/5 blur-[120px] pointer-events-none" />
@@ -265,7 +265,7 @@ export default function FeaturedMenu() {
               {/* Combo Image */}
               <div className="relative aspect-video rounded-2xl overflow-hidden my-6 border border-gold-400/10">
                 <img
-                  src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=800&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=70&w=600&auto=format&fit=crop"
                   alt="Delicious Combo Meal"
                   className="object-cover w-full h-full hover:scale-105 transition-transform duration-500"
                 />
