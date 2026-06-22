@@ -20,6 +20,28 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleScrollClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    setIsOpen(false);
+
+    const targetId = href.replace('#', '');
+    const element = document.getElementById(targetId);
+
+    if (element) {
+      // Small timeout to allow the mobile drawer menu to close and layout to settle
+      setTimeout(() => {
+        const headerOffset = isScrolled ? 75 : 95;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth',
+        });
+      }, 150);
+    }
+  };
+
   const navLinks = [
     { name: 'Home', href: '#home' },
     { name: 'Why Us', href: '#why-choose-us' },
@@ -41,7 +63,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-2 group">
+          <a
+            href="#home"
+            onClick={(e) => handleScrollClick(e, '#home')}
+            className="flex items-center gap-2 group"
+          >
             <div className="p-2 bg-gradient-to-br from-gold-400 to-gold-600 rounded-lg group-hover:rotate-12 transition-transform duration-300">
               <UtensilsCrossed className="w-6 h-6 text-obsidian-950" />
             </div>
@@ -61,6 +87,7 @@ export default function Navbar() {
               <a
                 key={link.name}
                 href={link.href}
+                onClick={(e) => handleScrollClick(e, link.href)}
                 className="text-sm font-semibold tracking-wider text-slate-300 hover:text-gold-400 transition-colors uppercase relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-gold-400 hover:after:w-full after:transition-all after:duration-300"
               >
                 {link.name}
@@ -79,6 +106,7 @@ export default function Navbar() {
             </a>
             <a
               href="#menu"
+              onClick={(e) => handleScrollClick(e, '#menu')}
               className="px-5 py-2.5 rounded-full text-xs tracking-widest font-black uppercase text-obsidian-950 bg-gradient-to-r from-gold-400 to-gold-600 hover:from-gold-300 hover:to-gold-500 shadow-[0_0_15px_rgba(251,191,36,0.3)] transition-all hover:scale-105 hover:shadow-[0_0_25px_rgba(251,191,36,0.5)] cursor-pointer"
             >
               Order Online
@@ -111,7 +139,7 @@ export default function Navbar() {
                 <a
                   key={link.name}
                   href={link.href}
-                  onClick={() => setIsOpen(false)}
+                  onClick={(e) => handleScrollClick(e, link.href)}
                   className="block px-3 py-2.5 rounded-md text-base font-semibold tracking-wider text-slate-300 hover:text-gold-400 hover:bg-obsidian-900 transition-all uppercase"
                 >
                   {link.name}
@@ -127,7 +155,7 @@ export default function Navbar() {
                 </a>
                 <a
                   href="#menu"
-                  onClick={() => setIsOpen(false)}
+                  onClick={(e) => handleScrollClick(e, '#menu')}
                   className="w-full text-center px-5 py-3 rounded-full text-sm tracking-widest font-black uppercase text-obsidian-950 bg-gradient-to-r from-gold-400 to-gold-600 hover:from-gold-300 hover:to-gold-500 shadow-md transition-all cursor-pointer"
                 >
                   Order Online
